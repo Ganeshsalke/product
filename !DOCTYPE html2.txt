@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!--<link rel="stylesheet">-->
+</head>
+<body>
+    
+    <div class="about">
+        <h2>ABOUT</h2>
+        <marquee direction="down" 0.5s>
+        <h1>WE ARE Selling Bikee </h1>
+    </marquee>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis iusto est natus voluptas commodi iure nihil minus placeat? Impedit non sunt dolore eos. Eligendi recusandae debitis labore reprehenderit nisi amet?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi non voluptatibus voluptate, cumque possimus debitis ipsum labore porro alias ut temporibus consequatur quo minus aspernatur iure adipisci placeat ab a.</p><br>
+    </div>
+    <style>
+    .about{
+        display: flexbox;
+        background-color: rgba(213, 146, 146, 0.496);
+        align-content: center;
+        margin-left: 500px;
+        margin-right: 500px;
+        margin-top: 300px;
+        margin-bottom: 300px;
+        border-radius: 5px;
+        box-shadow: 4cm;
+        
+    
+    }
+    .about h2{
+        text-align: center;
+        font-family:''calibri;
+    }
+    .about h1{
+        color:rgb(218, 130, 16);
+        text-align:center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .about h1 p{
+        text-align: center;
+    }
+    .about{
+        display: flexbox;
+        background-color: rgba(213, 146, 146, 0.496);
+        align-content: center;
+        margin-left: 500px;
+        margin-right: 500px;
+        margin-top: 300px;
+        margin-bottom: 300px;
+        border-radius: 5px;
+        
+    
+    }
+    .about h2{
+        text-align: center;
+        font-family:''calibri;
+    }
+    .about h1{
+        color:rgb(218, 130, 16);
+        text-align:center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .about h1 p{
+      
+        text-align: center;
+    }
+    @media(max-width:500px){
+  .row{
+    flex-direction: column;
+  }
+}
+    </style>
+</body>
+</html>

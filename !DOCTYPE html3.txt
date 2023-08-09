@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header>">
+    <h1>Images</h1>
+    </div>
+    <br><br>
+    <section class="photos">
+        <div class="bike">
+            <div class="f1">
+                <img src="https://th.bing.com/th/id/OIP.Q8az-HA9uFo_ZqF03iR5BgHaFj?pid=ImgDet&rs=1" alt="Bullet">
+                <p>NEW ONE <BR> Company-Royal Enfyield<br> model-2020 1 year used<br> price-50000</p>
+            </div>
+            <div class="f1">
+                <img src="https://th.bing.com/th/id/OIP.3JF5bVbX3pwLIGW_Meg5GgHaEK?pid=ImgDet&rs=1" alt="BULLET">
+                <p>NEW ONE <BR> Company-Royal Enfyield<br> model-2019 2 year used<br> price-25000</p>
+            </div>
+            <div class="f1">
+                <img src="https://th.bing.com/th/id/OIP.ZSjjlcZN80hbVxL355YwXQHaFj?pid=ImgDet&rs=1" alt="Bullet">
+                <p>NEW ONE <BR> Company-Royal Enfyield<br> model-2011(OLD) 9 year used<br> price-15000</p>
+            </div>
+        </div>
+        <br>
+        <h3>ACTIVAS</h3>
+        <hr>
+        <section class="photos2">
+            <div class="bike">
+                <div class="f1">
+                    <img src="https://vrhonda.in/images/bikes/activa-5g.png" alt="Activa 4G">
+                    <p>NEW ONE <BR> Company-Activa<br> model-2020 1 year used<br> price-50000</p>
+                </div>
+                <div class="f1">
+                    <img src="https://th.bing.com/th/id/OIP.jalKn338tVh08-NZSZe2sQHaE8?pid=ImgDet&w=600&h=400&rs=1" alt="Activa 3G">
+                    <p>NEW ONE <BR> Company-Activa 3G<br> model-2019 2 year used<br> price-25000</p>
+                </div>
+                <dv class="f1">
+                    <img src="https://th.bing.com/th/id/OIP.08UFxSkOz1rSQSKfwotbmAHaHR?pid=ImgDet&rs=1" alt="Activa">
+                    
+                   <p>NEW ONE <BR> Company-Activa<br> model-2011(OLD) 9 year used<br> price-15000</p>
+                   </div>
+                   </div>
+                   </section>
+                 <style>
+                    
+
+                    h1{
+                        font-size: 60px;
+                text-align:center;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                margin-top: 15px;
+                background: transparent;
+                transition: 0.5px;
+            }
+            h1:hover{
+                background-color: rgb(89, 123, 153);
+                margin-left: 700px;
+                margin-right: 800px;
+            }
+            H3{
+              font-size:40px;
+              font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              color:azure;
+              background: transparent;
+              transition: 0.5s;
+            }
+            h3:hover{
+                background-color: rgb(147, 175, 175);
+                margin-left: 800px;
+                margin-right: 800px;
+                border-radius: 5px;
+                
+            }
+            .bike{
+                margin-top:5px ;
+                display: flex;
+                justify-content: space-between;
+                
+                
+                
+            }
+               img{
+               background: transparent; 
+               transition: 0.5s;
+            }
+              img:hover{
+                background-color: aquamarine;
+            }
+            f1 p{
+                background: transparent;
+                transition: 0.5s;
+
+            }
+            f1 p:hover{
+                background-color: aqua;
+            }
+
+                </style>
+                <!--
+            </div>
+        <hr>
+        
+        <style>
+            body{
+                background-color: #cb262679;
+                background-image: url(https://images.app.goo.gl/ENFeVjcTP4AnTK687);
+            }
+            h1{
+                text-align:center;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                margin-top: 15px;
+                background: transparent;
+                transition: 0.5px;
+            }
+            h1:hover{
+                background-color: aliceblue;
+                margin-left: 800px;
+                margin-right: 800px;
+                
+            }
+            .photos{
+             text-align: center;
+             
+             
+            }
+            .bike{
+                margin-top:5px ;
+                display: flex;
+                justify-content: space-between;
+                
+                
+                
+            }
+
+            .f1{
+                text-align: center;
+                background-color: rgb(168, 157, 157);
+                background: transparent;
+                transition: 0.5s;
+                background-color: azure;
+                border-radius: 5px;
+                
+                
+             
+
+            }
+
+            .f1:hover{
+                
+                background-color: aquamarine;
+            }
+            .f1 img{
+                background-image: url(https://modifyseva.com/wp-content/uploads/2020/04/Glimpses-of-JB-500-Modified-Bullet-by-modifyseva-4-1024x1024.jpg);
+                width:165px;
+                height: fit-content;
+            }
+            H3{
+              font-size:40px;
+              font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              color:azure;
+              background: transparent;
+              transition: 0.5s;
+            }
+            h3:hover{
+                background-color: rgb(147, 175, 175);
+                margin-left: 800px;
+                margin-right: 800px;
+                border-radius: 5px;
+                
+            }
+
+            
+        </style>
+    </section>
+</body>
+</html>
